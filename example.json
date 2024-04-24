@@ -1,0 +1,34 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "title": "example",
+        "version": "1.0.0",
+        "description": "example"
+    },
+    "servers": [
+        {
+            "url": "http://{host}:{port}"
+        }
+    ],
+    "paths": {
+        "/example": {
+            "get": {
+                "tags": [
+                    "example"
+                ],
+                "responses": {
+                    "204": {
+                        "description": "success"
+                    }
+                },
+                "summary": "example"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "example",
+            "description": ""
+        }
+    ]
+}
